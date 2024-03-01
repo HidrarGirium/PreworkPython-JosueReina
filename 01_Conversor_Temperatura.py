@@ -7,12 +7,12 @@ Fahrenheit.
 print('Calculadora Celsius a Fahrenheit')
 print()
 while True:
-  C = input('Inserte la temperatura en Celsius:')
+  C = input('Inserte la temperatura en Celsius: ')
   try:
     C = float(C)
     break
   except ValueError:
-    print('Carácter no válido, inserte un número')
+    print('ERROR: Inserte un número')
     print()
     
 while True:
